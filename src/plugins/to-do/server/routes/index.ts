@@ -5,7 +5,6 @@ export default [
     handler: "myController.index",
     config: {
       policies: [],
-      auth: false,
     },
   },
   {
@@ -14,7 +13,6 @@ export default [
     handler: "todo.find",
     config: {
       policies: [],
-      auth: false,
     },
   },
 
@@ -24,7 +22,6 @@ export default [
     handler: "todo.create",
     config: {
       policies: [],
-      auth: false,
     },
   },
 
@@ -34,7 +31,6 @@ export default [
     handler: "todo.delete",
     config: {
       policies: [],
-      auth: false,
     },
   },
 
@@ -44,7 +40,6 @@ export default [
     handler: "todo.toggle",
     config: {
       policies: [],
-      auth: false,
     },
   },
 
@@ -54,7 +49,6 @@ export default [
     handler: "todo.update",
     config: {
       policies: [],
-      auth: false,
     },
   },
 ];
